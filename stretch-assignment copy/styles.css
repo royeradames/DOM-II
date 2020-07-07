@@ -1,36 +1,37 @@
 body {
   display: flex;
   /*justify-content: center;*/
+  background-color: black;
 }
 
-.blocks {
+.circles {
   margin-top: 5%;
   display: flex;
   flex-direction: column;
 }
 
-.block {
+.circle {
   width: 100px;
   height: 100px;
   margin: 10px;
 }
 
-.block--red {
+.circle--red {
   background-color: red;
 }
 
-.block--blue {
+.circle--blue {
   background-color: blue;
 }
 
-.block--green {
+.circle--green {
   background-color: green;
 }
 
-.block--pink {
+.circle--pink {
   background-color: pink;
 }
 
-.block--gray {
+.circle--gray {
   background-color: gray;
 }
